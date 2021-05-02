@@ -35,7 +35,8 @@ p {
 /* Firstpage */
 
 #firstpage {
-  background-image: url(assets/main-bg.jpg);
+  background-image: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090a 99.74%), url("./assets/main-bg.jpg");
+
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
@@ -75,7 +76,7 @@ p {
 /* Secondpage */
 
 #secondpage {
-  background-image: url("./assets/the-games-bg.jpg");
+  background-image: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080a0b 99.74%), url("./assets/the-games-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -108,7 +109,7 @@ p {
 /* Thirdpage */
 
 #thirdpage {
-  background: url(assets/features.jpg);
+  background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080a0b 99.74%), url(assets/features.jpg);
   background-size: cover;
   background-position: center;
   /* background-attachment: fixed; */
@@ -138,7 +139,7 @@ p {
 /* Fourthpage */
 
 #fourthpage {
-  background-image: url(assets/requirements.png);
+  background: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080a0b 99.74%), url(assets/requirements.png);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -171,7 +172,7 @@ p {
 /* fifthpage */
 
 #fifthpage {
-  background-image: url(./assets/fifthpage.jpg);
+  background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(35, 15, 15, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080a0b 99.74%), url(./assets/fifthpage.jpg);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -220,7 +221,7 @@ p {
 /* sixthpage */
 
 #sixthpage {
-  background-image: url(./assets/fifthpage.jpg);
+  background: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080a0b 99.74%), url(./assets/fifthpage.jpg);
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed;
