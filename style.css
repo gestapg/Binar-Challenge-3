@@ -1,0 +1,290 @@
+.tombol {
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  font-size: 16px;
+  font-weight: bold;
+  width: 12rem;
+  height: 3rem;
+  color: black;
+}
+
+h1,
+h3,
+p {
+  color: white;
+}
+
+/* Navbar */
+
+.navbar {
+  opacity: 0.75;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 4px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  color: white;
+}
+
+.navbar-nav .nav-item .nav-link {
+  opacity: 1 !important;
+  font-size: 13px;
+  color: white;
+}
+
+/* Firstpage */
+
+#firstpage {
+  background-image: url(assets/main-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 100vh;
+  width: 100vw;
+}
+
+#firstpage h1 {
+  font-size: 60px;
+  color: white;
+  font-size: 300;
+  letter-spacing: 6px;
+  margin-bottom: 40px;
+}
+
+#firstpage h3 {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+#firstpage .tombol {
+  font-size: 16px;
+  font-weight: bold;
+  width: 12rem;
+  height: 3rem;
+  color: black;
+}
+
+#firstpage a {
+  color: white;
+  width: 100px;
+}
+
+/* Secondpage */
+
+#secondpage {
+  background-image: url("./assets/the-games-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#secondpage h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+#secondpage h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: white;
+}
+#secondpage .carousel-indicators button {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 17px;
+}
+
+/* #secondpage img {
+  width: 700px;
+  padding-left: 60px; 
+} */
+
+/* Thirdpage */
+
+#thirdpage {
+  background: url(assets/features.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  height: 100vh;
+}
+
+#thirdpage h1 {
+  color: white;
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+
+#thirdpage h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#thirdpage p {
+  color: white;
+}
+
+#thirdpage h5 {
+  color: #f3af34;
+}
+
+/* Fourthpage */
+
+#fourthpage {
+  background-image: url(assets/requirements.png);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#fourthpage h1 {
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+
+#fourthpage h5 {
+  color: #f3af34;
+}
+
+#fourthpage .row .borderimg {
+  border: 9px solid;
+  border-image: url(./assets/Vector\ 2.png) 10 round;
+}
+
+#fourthpage .row .garis {
+  border-bottom: 2px solid;
+  padding: 7px;
+}
+
+#fourthpage .row .tengah {
+  border-left: 2px solid;
+}
+
+/* fifthpage */
+
+#fifthpage {
+  background-image: url(./assets/fifthpage.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#fifthpage h1 {
+  font-size: 56px;
+  letter-spacing: 3px;
+}
+
+#fifthpage .card {
+  border-radius: 10px;
+}
+
+#fifthpage .gambar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#fifthpage h6 {
+  color: #f3af34;
+  letter-spacing: 2px;
+  font-size: 1.4em;
+}
+
+#fifthpage .d-flex .profesi {
+  font-size: 18;
+  opacity: 0.5;
+}
+
+#fifthpage .card-body .card-text {
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+#fifthpage .card-body .date {
+  margin-top: -10px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+/* sixthpage */
+
+#sixthpage {
+  background-image: url(./assets/fifthpage.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#sixthpage h1 {
+  font-size: 80px;
+  letter-spacing: 3px;
+}
+
+#sixthpage h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 400;
+}
+
+#sixthpage .form-floating label {
+  color: rgb(160, 159, 158);
+}
+
+#sixthpage .form-floating input {
+  color: #f3af34;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #080a0b;
+}
+
+#footer a {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+#footer ul li {
+  margin: 0 7px;
+}
+
+#footer hr {
+  color: white;
+}
+
+#footer .copyright :first-child {
+  font-size: 14px;
+  color: white;
+  opacity: 0.5;
+}
+
+#footer .copyright :nth-child(2) {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: white;
+  margin-bottom: 50px;
+}
