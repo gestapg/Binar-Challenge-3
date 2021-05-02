@@ -228,9 +228,21 @@ p {
   height: 100vh;
 }
 
-#sixthpage h1 {
-  font-size: 80px;
-  letter-spacing: 3px;
+@media only screen and (min-width: 601px) {
+  #sixthpage h1 {
+    font-size: 80px;
+    letter-spacing: 3px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #sixthpage h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+  #sixthpage img {
+    display: none;
+  }
 }
 
 #sixthpage h3 {
