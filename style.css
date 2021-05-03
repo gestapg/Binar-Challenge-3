@@ -146,6 +146,12 @@ p {
   color: #f3af34;
 }
 
+#thirdpage .line {
+  border: 1px solid white;
+  height: 100px;
+  width: 0px;
+}
+
 /* Fourthpage */
 
 #fourthpage {
@@ -251,9 +257,6 @@ p {
 
 #sixthpage {
   background-color: #080a0b;
-  background-position: bottom;
-  background-size: cover;
-  background-attachment: fixed;
   height: 100vh;
 }
 
