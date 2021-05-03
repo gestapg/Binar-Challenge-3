@@ -36,20 +36,30 @@ p {
 
 #firstpage {
   background-image: radial-gradient(189.96% 61.18% at 50% 38.82%, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090a 99.74%), url("./assets/main-bg.jpg");
-
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
   height: 100vh;
-  width: 100vw;
 }
 
-#firstpage h1 {
-  font-size: 60px;
-  color: white;
-  font-size: 300;
-  letter-spacing: 6px;
-  margin-bottom: 40px;
+@media only screen and (min-width: 769px) {
+  #firstpage h1 {
+    font-size: 60px;
+    color: white;
+    font-size: 300;
+    letter-spacing: 6px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #firstpage h1 {
+    font-size: 30px;
+    color: white;
+    font-size: 300;
+    letter-spacing: 6px;
+    margin-bottom: 40px;
+  }
 }
 
 #firstpage h3 {
@@ -146,9 +156,18 @@ p {
   height: 100vh;
 }
 
-#fourthpage h1 {
-  font-size: 56px;
-  letter-spacing: 3px;
+@media only screen and (min-width: 769px) {
+  #fourthpage h1 {
+    font-size: 56px;
+    letter-spacing: 3px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #fourthpage h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
 }
 
 #fourthpage h5 {
@@ -179,13 +198,23 @@ p {
   height: 100vh;
 }
 
-#fifthpage h1 {
-  font-size: 56px;
-  letter-spacing: 3px;
+@media only screen and (min-width: 768px) {
+  #fifthpage .card {
+    border-radius: 10px;
+    width: 27rem;
+    height: 12rem;
+  }
+  #fifthpage h1 {
+    font-size: 56px;
+    letter-spacing: 3px;
+  }
 }
 
-#fifthpage .card {
-  border-radius: 10px;
+@media only screen and (min-width: 576px) {
+  #fifthpage h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
 }
 
 #fifthpage .gambar {
@@ -221,21 +250,21 @@ p {
 /* sixthpage */
 
 #sixthpage {
-  background: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080a0b 99.74%), url(./assets/fifthpage.jpg);
+  background-color: #080a0b;
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 769px) {
   #sixthpage h1 {
     font-size: 80px;
     letter-spacing: 3px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   #sixthpage h1 {
     font-size: 40px;
     letter-spacing: 3px;
